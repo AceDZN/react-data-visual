@@ -1,2 +1,3 @@
+import data from './data/data.json'
 
-document.body.innerText = "Starter File is working.";
+document.body.innerText = "server is running - by "+data.firstname+" "+data.lastname;

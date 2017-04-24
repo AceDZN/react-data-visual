@@ -1,0 +1,16 @@
+{
+  "firstname": "Alex",
+  "lastname": "Sindalovsky",
+  "age": 30,
+  "websites": [
+    {
+      "title": "AceDesigns",
+      "name": "https://www.acedzn.com"
+    },
+    {
+      "title": "Bikoreshet",
+      "name": "http://www.bikoreshet.com"
+    }
+  ]
+
+}

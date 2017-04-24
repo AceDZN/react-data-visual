@@ -1,3 +1,7 @@
-import data from './data/data.json'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app';
 
-document.body.innerText = "server is running - by "+data.firstname+" "+data.lastname;
+import data from './data/data.json';
+
+ReactDOM.render(<App {...data} />, document.getElementById('react') );

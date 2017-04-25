@@ -1,5 +1,6 @@
 module.exports = {
-     entry: './source/client.js',
+     //oldentry: './source/client.js',
+     entry: './source/map-client.js',
      output: {
          path: './',
          filename: 'index.js',

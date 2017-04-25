@@ -1,6 +1,7 @@
 module.exports = {
      //oldentry: './source/client.js',
-     entry: './source/map-client.js',
+     //mapentry: './source/map-client.js',
+     entry: './source/chart-client.js',
      output: {
          path: './',
          filename: 'index.js',
@@ -19,7 +20,11 @@ module.exports = {
          },
          {
            test: /\.json/,
-           loader: 'json'
+           loader: 'json-loader'
+         },
+         {
+           test: /\.csv/,
+           loader: 'dsv-loader'
          }
        ]
      }
